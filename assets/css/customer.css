@@ -1,0 +1,10 @@
+#section_customer> h1{
+    margin-top: 30px;
+    color: white;
+}
+
+.table_container{
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+}
