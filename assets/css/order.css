@@ -2,3 +2,9 @@
     margin-top: 30px;
     color: white;
 }
+
+.table_container_order{
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+}
