@@ -49,14 +49,57 @@
 <div class="container" id="section_item">
     <h1 class="text-center">Item</h1>
 
-    <div class="container table_container_item d-flex justify-content-center align-items-center" >
+    <div class="card">
+        <div class="card-body">
 
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+            <!--            search bar-->
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">Search</button>
+                </div>
+            </div>
 
+            <!--            view all button-->
+            <div class="float-right">
+                <button class="btn btn-primary">Button</button>
+            </div>
+
+            <!--            table-->
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Item Id</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Unit Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Soap</td>
+                    <td>washing item</td>
+                    <td>200</td>
+                    <td>LKR 135.00</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+            <!-- Three buttons in one line -->
+            <div class="row">
+                <div class="col-12 text-right">
+                    <button class="btn btn-success">Button 1</button>
+                    <button class="btn btn-warning ml-2">Button 2</button>
+                    <button class="btn btn-danger ml-2">Button 3</button>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </div>
 
 
